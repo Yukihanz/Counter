@@ -1,0 +1,47 @@
+body {
+    background-color: #202020;
+    color: white;
+}
+
+div {
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px auto 10px auto;
+}
+
+button {
+    text-align:center;
+    padding: 20px;
+    width: 100px;
+    margin: 10px;
+    font-weight:bold;
+    color:white;
+    border:2px white solid;
+    background-color: #00000000;
+    border-radius:6px;
+}
+
+button:hover {
+    transition-duration: 150ms;
+    background-color:#555555;
+}
+
+button:active {
+    transition-duration: 150ms;
+    background-color:#CCCCCC;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.time {
+    width: 50%;
+    border: 4px white solid;
+    border-radius:10px;
+}
